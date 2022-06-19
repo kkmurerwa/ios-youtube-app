@@ -16,6 +16,7 @@
 		F5E71B2F285F6947000B9A0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B2E285F6947000B9A0C /* Constants.swift */; };
 		F5E71B31285F6A9A000B9A0C /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B30285F6A9A000B9A0C /* Video.swift */; };
 		F5E71B33285F6AD9000B9A0C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B32285F6AD9000B9A0C /* Model.swift */; };
+		F5E71B35285F7933000B9A0C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B34285F7933000B9A0C /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F5E71B2E285F6947000B9A0C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F5E71B30285F6A9A000B9A0C /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		F5E71B32285F6AD9000B9A0C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F5E71B34285F7933000B9A0C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				F5E71B2E285F6947000B9A0C /* Constants.swift */,
 				F5E71B30285F6A9A000B9A0C /* Video.swift */,
 				F5E71B32285F6AD9000B9A0C /* Model.swift */,
+				F5E71B34285F7933000B9A0C /* Response.swift */,
 			);
 			path = "ios-youtube-app";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				F5E71B33285F6AD9000B9A0C /* Model.swift in Sources */,
 				F5E71B2F285F6947000B9A0C /* Constants.swift in Sources */,
 				F5E71B31285F6A9A000B9A0C /* Video.swift in Sources */,
+				F5E71B35285F7933000B9A0C /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
