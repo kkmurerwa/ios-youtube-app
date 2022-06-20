@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F522D5AC2860661D001BE4D2 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F522D5AB2860661D001BE4D2 /* VideoTableViewCell.swift */; };
+		F54544AA28606FEB00525878 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54544A928606FEB00525878 /* CacheManager.swift */; };
 		F5E71B1B285F5D0B000B9A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B1A285F5D0B000B9A0C /* AppDelegate.swift */; };
 		F5E71B1D285F5D0B000B9A0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B1C285F5D0B000B9A0C /* SceneDelegate.swift */; };
 		F5E71B1F285F5D0B000B9A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E71B1E285F5D0B000B9A0C /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F522D5AB2860661D001BE4D2 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		F54544A928606FEB00525878 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		F5E71B17285F5D0B000B9A0C /* ios-youtube-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-youtube-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E71B1A285F5D0B000B9A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E71B1C285F5D0B000B9A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F522D5AD28606637001BE4D2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5E71B1E285F5D0B000B9A0C /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F522D5AE28606648001BE4D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F522D5AB2860661D001BE4D2 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F522D5AF2860664F001BE4D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5E71B30285F6A9A000B9A0C /* Video.swift */,
+				F5E71B32285F6AD9000B9A0C /* Model.swift */,
+				F5E71B34285F7933000B9A0C /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F522D5B028606654001BE4D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F5E71B20285F5D0B000B9A0C /* Main.storyboard */,
+				F5E71B25285F5D0D000B9A0C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F522D5B12860665D001BE4D2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F5E71B2E285F6947000B9A0C /* Constants.swift */,
+				F54544A928606FEB00525878 /* CacheManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F5E71B0E285F5D0B000B9A0C = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +114,13 @@
 			children = (
 				F5E71B1A285F5D0B000B9A0C /* AppDelegate.swift */,
 				F5E71B1C285F5D0B000B9A0C /* SceneDelegate.swift */,
-				F5E71B1E285F5D0B000B9A0C /* ViewController.swift */,
-				F5E71B20285F5D0B000B9A0C /* Main.storyboard */,
+				F522D5B12860665D001BE4D2 /* Helpers */,
+				F522D5B028606654001BE4D2 /* Storyboards */,
+				F522D5AF2860664F001BE4D2 /* Models */,
+				F522D5AE28606648001BE4D2 /* Views */,
+				F522D5AD28606637001BE4D2 /* View Controllers */,
 				F5E71B23285F5D0D000B9A0C /* Assets.xcassets */,
-				F5E71B25285F5D0D000B9A0C /* LaunchScreen.storyboard */,
 				F5E71B28285F5D0D000B9A0C /* Info.plist */,
-				F5E71B2E285F6947000B9A0C /* Constants.swift */,
-				F5E71B30285F6A9A000B9A0C /* Video.swift */,
-				F5E71B32285F6AD9000B9A0C /* Model.swift */,
-				F5E71B34285F7933000B9A0C /* Response.swift */,
 			);
 			path = "ios-youtube-app";
 			sourceTree = "<group>";
@@ -151,10 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E71B1F285F5D0B000B9A0C /* ViewController.swift in Sources */,
+				F54544AA28606FEB00525878 /* CacheManager.swift in Sources */,
 				F5E71B1B285F5D0B000B9A0C /* AppDelegate.swift in Sources */,
 				F5E71B1D285F5D0B000B9A0C /* SceneDelegate.swift in Sources */,
 				F5E71B33285F6AD9000B9A0C /* Model.swift in Sources */,
 				F5E71B2F285F6947000B9A0C /* Constants.swift in Sources */,
+				F522D5AC2860661D001BE4D2 /* VideoTableViewCell.swift in Sources */,
 				F5E71B31285F6A9A000B9A0C /* Video.swift in Sources */,
 				F5E71B35285F7933000B9A0C /* Response.swift in Sources */,
 			);
